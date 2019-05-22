@@ -1,6 +1,6 @@
 package com.juzss.model;
 
-//使用枚举实现单例模式 优点:实现简单、枚举本身就是单例，由jvm从根本上提供保障!避免通过反射和反序列化的漏洞 缺点没有延迟加载
+//使用枚举实现单例模式 优点:实现简单、枚举本身就是单例，由jvm从根本上提供保障!避免通过反射和反序列化的漏洞 缺点没有延迟加载。
 public class Singleton4 {
 	public static Singleton4 getInstance() {
 		return SingletonDemo04.INSTANCE.getInstance();
